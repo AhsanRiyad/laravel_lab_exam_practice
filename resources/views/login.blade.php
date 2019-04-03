@@ -4,20 +4,49 @@
     <title>Welcome</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
-
 </head>
 <body>
 
 
-
-
 <div class="row">
-    <div class="col-6 offset-3">
-        <h1>hellow world</h1>
-    </div>
+  <div class="col-6 offset-3 mt-5">
+    <form action="" method="post">
+      @csrf
+<table >
+  <tr>
+    <td>
+    Email :
+    </td>
+    <td>
+    <input type="text" name="email">    
+    </td>
+
+    
+  </tr>
+  <tr>
+    <td>
+    Password: 
+    </td>
+    <td>
+    <input type="text" name="password">    
+    </td>
+    
+  </tr>
+
+  <tr>
+    <td>
+     
+    <input type="submit" name="submit" value="submit">
+  
+    </td>
+  </tr>
+</form>
+  
+</table>
+  </div>
 </div>
+
+
 
 
 
